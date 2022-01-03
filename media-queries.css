@@ -59,12 +59,26 @@
 
     .sub-section{
         font-style: italic;
-        margin-bottom: 150px;
     }
 
+    footer {
+        display: flex;
+        margin-top: 150px;
+        flex-direction: row;
+    }
 
     .sub-section h2 {
         font-size: 4em;
+    }
+
+    #social-media-links {
+        display: flex;
+        margin-left: auto;
+    }
+
+    #social-media-links img{
+        height: 25px;
+        width: auto;
     }
 
 }
@@ -130,6 +144,18 @@
     }
 
     footer {
+        display: flex;
+        align-items: center;
         margin-top: 150px;
+    }
+
+    #social-media-links {
+        display: flex;
+        margin-left: auto;
+    }
+
+    #social-media-links img{
+        height: 25px;
+        width: auto;
     }
 }
